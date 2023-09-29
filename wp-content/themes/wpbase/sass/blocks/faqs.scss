@@ -1,0 +1,12 @@
+.faqList {
+    
+    .question { display: grid; align-items: center; width: 100%; grid-template-columns: 1fr 30px;     background: #dcdfff;
+    padding: 14px 16px; border-radius: 8px; cursor: pointer; }
+    
+    .answerCont { display: none; }
+    
+    .isOpen {
+        .plusIcon:after { opacity: 0; }
+    }
+    
+}
